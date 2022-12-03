@@ -17,13 +17,25 @@ class StudentController extends Controller
     public function store(Request $request)
     {
         $data = [
-            'title' => $request['title'],
-            'content' => $request['content']
+            "name" => $request["name"],
+            "phone" => $request["phone"],
+            "dob" => $request["dob"],
+            "email" => $request["email"],
+            "address" => $request["address"],
+            "nic" => $request["nic"],
+            "gender" => $request["gender"],
+            "guardian" => [
+                "name" => $request["guardianname"],
+                "phone" => $request["guardianphone"],
+                "relation" => $request["guardianrelation"],
+                "email" => $request["guardianemail"],
+                "address" => $request["guardianaddress"]
+            ]
         ];
         $ref = $this->database->getReference($this->ref_tablename)->push($data);
         $postkey = $ref->getKey();
-        if($ref){
-            return response()->json('blog has been created');
+        if ($ref) {
+            return response()->json('blog has been created' . $postkey);
         }
     }
 }
