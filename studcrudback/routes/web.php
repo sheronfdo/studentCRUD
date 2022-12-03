@@ -14,9 +14,11 @@ use App\Http\Controllers\StudentController;
 |
 */
 
-Route::post('add-student', [StudentController::class, 'store']);
+Route::post('addstudent', [StudentController::class, 'store']);
 Route::get('students', [StudentController::class, 'getStudents']);
 Route::get('student/{id}', [StudentController::class, 'getStudent']);
+Route::put('updatestudent/{id}', [StudentController::class, 'updateStudent']);
+Route::delete('deletestudent/{id}', [StudentController::class, 'deleteStudent']);
 
 
 
