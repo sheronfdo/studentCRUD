@@ -13842,7 +13842,7 @@ module.exports = /*#__PURE__*/function () {
 
 __webpack_require__(3290);
 
-/* eslint-disable node/no-deprecated-api */
+/* eslint-disable node/no-deprecated-Api */
 var buffer = __webpack_require__(8823);
 
 var Buffer = buffer.Buffer; // alternative to using Object.keys for old browsers
@@ -13919,7 +13919,7 @@ SafeBuffer.allocUnsafeSlow = function (size) {
 
 "use strict";
 /* provided dependency */ var process = __webpack_require__(4155);
-/* eslint-disable node/no-deprecated-api */
+/* eslint-disable node/no-deprecated-Api */
 
 
 __webpack_require__(8145);
@@ -70994,7 +70994,7 @@ module.exports = deprecate;
  * @param {Function} fn - the function to deprecate
  * @param {String} msg - the string to print to the console when `fn` is invoked
  * @returns {Function} a new "deprecated" version of `fn`
- * @api public
+ * @Api public
  */
 
 function deprecate (fn, msg) {
@@ -71025,7 +71025,7 @@ function deprecate (fn, msg) {
  *
  * @param {String} name
  * @returns {Boolean}
- * @api private
+ * @Api private
  */
 
 function config (name) {
@@ -76450,7 +76450,7 @@ PdfPrinter.prototype.createPdfKitDocument = function (docDefinition, options) {
 function createMetadata(docDefinition) {
 	// PDF standard has these properties reserved: Title, Author, Subject, Keywords,
 	// Creator, Producer, CreationDate, ModDate, Trapped.
-	// To keep the pdfmake api consistent, the info field are defined lowercase.
+	// To keep the pdfmake Api consistent, the info field are defined lowercase.
 	// Custom properties don't contain a space.
 	function standardizePropertyKey(key) {
 		var standardProperties = ['Title', 'Author', 'Subject', 'Keywords',

@@ -3259,7 +3259,7 @@
                 (isMoment(input) || isDate(input)
                     ? input.valueOf()
                     : createLocal(input).valueOf()) - res.valueOf();
-            // Use low-level api, because this fn is low-level api.
+            // Use low-level Api, because this fn is low-level Api.
             res._d.setTime(res._d.valueOf() + diff);
             hooks.updateOffset(res, false);
             return res;

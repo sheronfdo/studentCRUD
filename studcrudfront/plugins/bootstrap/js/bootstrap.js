@@ -243,7 +243,7 @@
   var VERSION$a = '4.6.1';
   var DATA_KEY$a = 'bs.alert';
   var EVENT_KEY$a = "." + DATA_KEY$a;
-  var DATA_API_KEY$7 = '.data-api';
+  var DATA_API_KEY$7 = '.data-Api';
   var JQUERY_NO_CONFLICT$a = $__default["default"].fn[NAME$a];
   var CLASS_NAME_ALERT = 'alert';
   var CLASS_NAME_FADE$5 = 'fade';
@@ -391,7 +391,7 @@
   var VERSION$9 = '4.6.1';
   var DATA_KEY$9 = 'bs.button';
   var EVENT_KEY$9 = "." + DATA_KEY$9;
-  var DATA_API_KEY$6 = '.data-api';
+  var DATA_API_KEY$6 = '.data-Api';
   var JQUERY_NO_CONFLICT$9 = $__default["default"].fn[NAME$9];
   var CLASS_NAME_ACTIVE$3 = 'active';
   var CLASS_NAME_BUTTON = 'btn';
@@ -582,7 +582,7 @@
   var VERSION$8 = '4.6.1';
   var DATA_KEY$8 = 'bs.carousel';
   var EVENT_KEY$8 = "." + DATA_KEY$8;
-  var DATA_API_KEY$5 = '.data-api';
+  var DATA_API_KEY$5 = '.data-Api';
   var JQUERY_NO_CONFLICT$8 = $__default["default"].fn[NAME$8];
   var ARROW_LEFT_KEYCODE = 37; // KeyboardEvent.which value for left arrow key
 
@@ -1169,7 +1169,7 @@
   var VERSION$7 = '4.6.1';
   var DATA_KEY$7 = 'bs.collapse';
   var EVENT_KEY$7 = "." + DATA_KEY$7;
-  var DATA_API_KEY$4 = '.data-api';
+  var DATA_API_KEY$4 = '.data-Api';
   var JQUERY_NO_CONFLICT$7 = $__default["default"].fn[NAME$7];
   var CLASS_NAME_SHOW$6 = 'show';
   var CLASS_NAME_COLLAPSE = 'collapse';
@@ -1510,7 +1510,7 @@
   var VERSION$6 = '4.6.1';
   var DATA_KEY$6 = 'bs.dropdown';
   var EVENT_KEY$6 = "." + DATA_KEY$6;
-  var DATA_API_KEY$3 = '.data-api';
+  var DATA_API_KEY$3 = '.data-Api';
   var JQUERY_NO_CONFLICT$6 = $__default["default"].fn[NAME$6];
   var ESCAPE_KEYCODE$1 = 27; // KeyboardEvent.which value for Escape (Esc) key
 
@@ -2013,7 +2013,7 @@
   var VERSION$5 = '4.6.1';
   var DATA_KEY$5 = 'bs.modal';
   var EVENT_KEY$5 = "." + DATA_KEY$5;
-  var DATA_API_KEY$2 = '.data-api';
+  var DATA_API_KEY$2 = '.data-Api';
   var JQUERY_NO_CONFLICT$5 = $__default["default"].fn[NAME$5];
   var ESCAPE_KEYCODE = 27; // KeyboardEvent.which value for Escape (Esc) key
 
@@ -3626,7 +3626,7 @@
   var VERSION$2 = '4.6.1';
   var DATA_KEY$2 = 'bs.scrollspy';
   var EVENT_KEY$2 = "." + DATA_KEY$2;
-  var DATA_API_KEY$1 = '.data-api';
+  var DATA_API_KEY$1 = '.data-Api';
   var JQUERY_NO_CONFLICT$2 = $__default["default"].fn[NAME$2];
   var CLASS_NAME_DROPDOWN_ITEM = 'dropdown-item';
   var CLASS_NAME_ACTIVE$1 = 'active';
@@ -3910,7 +3910,7 @@
   var VERSION$1 = '4.6.1';
   var DATA_KEY$1 = 'bs.tab';
   var EVENT_KEY$1 = "." + DATA_KEY$1;
-  var DATA_API_KEY = '.data-api';
+  var DATA_API_KEY = '.data-Api';
   var JQUERY_NO_CONFLICT$1 = $__default["default"].fn[NAME$1];
   var CLASS_NAME_DROPDOWN_MENU = 'dropdown-menu';
   var CLASS_NAME_ACTIVE = 'active';
