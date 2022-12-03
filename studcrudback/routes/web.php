@@ -15,6 +15,8 @@ use App\Http\Controllers\StudentController;
 */
 
 Route::post('add-student', [StudentController::class, 'store']);
+Route::get('students', [StudentController::class, 'getStudents']);
+Route::get('student/{id}', [StudentController::class, 'getStudent']);
 
 
 

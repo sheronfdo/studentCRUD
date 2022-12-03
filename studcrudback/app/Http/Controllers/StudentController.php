@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use http\Env\Response;
 use Illuminate\Http\Request;
 use Kreait\Firebase\Contract\Database;
 
@@ -38,4 +39,16 @@ class StudentController extends Controller
             return response()->json('blog has been created' . $postkey);
         }
     }
+
+    public function getStudents(){
+        $students = $this->database->getReference($this->ref_tablename)->getValue();
+        return Response()->json($students);
+    }
+
+    public  function getStudent($id){
+        $students = $this->database->getReference($this->ref_tablename)->getChild($id)->getValue();
+        return Response()->json($students);
+    }
+
+
 }
