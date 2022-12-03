@@ -37,6 +37,8 @@ class StudentController extends Controller
         $postkey = $ref->getKey();
         if ($ref) {
             return response()->json('student has been created' . $postkey);
+        } else {
+            return Response()->json('process failed');
         }
     }
 
@@ -73,6 +75,8 @@ class StudentController extends Controller
         $ref = $this->database->getReference($this->ref_tablename . "/" . $id)->update($data);
         if ($ref) {
             return response()->json('student has been updated');
+        } else {
+            return Response()->json('process failed');
         }
     }
 
@@ -81,6 +85,8 @@ class StudentController extends Controller
         $ref = $this->database->getReference($this->ref_tablename . "/" . $id)->remove();
         if ($ref) {
             return response()->json('student has been deleted');
+        } else {
+            return Response()->json('process failed');
         }
     }
 
